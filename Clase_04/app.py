@@ -1,5 +1,5 @@
 import gradio as gr
-
+import os
 
 def saludar(nombre):
     return f"¡Hola, {nombre}! Bienvenido a mi portfolio de Seminario."
@@ -20,4 +20,4 @@ with gr.Blocks() as app:
     )
 
 
-app.launch()
+app.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
