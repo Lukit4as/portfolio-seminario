@@ -17,6 +17,8 @@ Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial
 - Deploy de aplicaciones
 - Streamlit
 - Documentación con Markdown
+- Deploy con Render
+- Streamlit
 
 ## Tecnologías
 
