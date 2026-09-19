@@ -1,91 +1,101 @@
 # Clase 5 - Deploy y documentación
 
-## Tema de la clase
+## Actividad: Publicá tu app y documentala
 
-En esta clase trabajamos sobre diferentes alternativas para publicar aplicaciones y sobre la importancia de documentar correctamente los proyectos.
+En esta actividad se publicó la aplicación desarrollada con Gradio Blocks en un servidor real y se realizó una versión equivalente utilizando Streamlit.
 
-## Contenidos
+El objetivo fue comprobar que el procedimiento de publicación no depende de una única herramienta para construir la interfaz.
 
-Durante la clase se trabajaron los siguientes temas:
+## 1. Deploy en Render
 
-- Deploy de aplicaciones con Render
-- Configuración de puertos
-- Variables de entorno
-- Gradio y enlaces compartidos
-- Streamlit
-- Streamlit Community Cloud
-- README
-- Markdown
-- Git `remote`
-- Git `rm`
-- ASGI
-- WSGI
-- WebSockets
+La primera versión de la aplicación utiliza **Gradio Blocks**.
 
-## Deploy con Render
+La aplicación permite ingresar un nombre y, al presionar el botón "Saludar", muestra un mensaje personalizado.
 
-Se estudiaron los conceptos necesarios para realizar el deploy de una aplicación utilizando Render.
-
-Entre los aspectos considerados se encuentran:
-
-- Configuración del puerto.
-- Uso de variables de entorno.
-- Configuración necesaria para ejecutar la aplicación.
-- Consideraciones sobre los planes gratuitos.
-
-## Streamlit
-
-También se trabajó con Streamlit como alternativa para desarrollar y publicar aplicaciones interactivas utilizando Python.
-
-Se revisó la posibilidad de utilizar Streamlit Community Cloud para realizar el despliegue de aplicaciones.
-
-## Gradio
-
-Se revisó el funcionamiento de los enlaces compartidos de Gradio.
-
-Los enlaces compartidos permiten acceder temporalmente a una aplicación que se está ejecutando, dependiendo de las condiciones del mecanismo utilizado.
-
-## Documentación
-
-Se trabajó con archivos `README.md` y Markdown para documentar proyectos.
-
-El README permite explicar:
-
-- Qué es el proyecto.
-- Qué tecnologías utiliza.
-- Cómo ejecutarlo.
-- Cómo utilizarlo.
-- Información relevante sobre su funcionamiento.
-
-## Git
-
-También se repasaron comandos relacionados con la administración del repositorio:
-
-- `git remote`
-- `git rm`
-
-Estos comandos permiten consultar y administrar la conexión con repositorios remotos y gestionar archivos dentro del control de versiones.
-
-## Servidores y comunicación
-
-Se introdujeron conceptos relacionados con:
-
-- ASGI
-- WSGI
-- WebSockets
-
-Estos conceptos permiten comprender diferentes formas de comunicación y ejecución de aplicaciones web.
-
-## Consideraciones
-
-Durante esta etapa se destacó la importancia de verificar la documentación actual de cada plataforma antes de realizar un deploy, ya que las condiciones y características de los planes gratuitos pueden cambiar.
-
-## Tecnologías
+### Tecnologías utilizadas
 
 - Python
 - Gradio
-- Streamlit
-- Render
 - Git
 - GitHub
-- Markdown
+- Render
+
+### Link del deploy
+
+https://portfolio-seminario.onrender.com
+
+El deploy se realizó utilizando un Web Service de Render conectado al repositorio de GitHub.
+
+Se configuró:
+
+- Root Directory: `Clase_04`
+- Build Command: `pip install -r requirements.txt`
+- Start Command: `python app.py`
+
+El deploy finalizó correctamente y la aplicación quedó disponible online.
+
+## 2. Versión equivalente en Streamlit
+
+Para comprobar que el procedimiento no dependiera de Gradio, se desarrolló una versión equivalente de la aplicación utilizando **Streamlit**.
+
+Esta versión mantiene la misma idea principal:
+
+1. Ingresar un nombre.
+2. Presionar el botón "Saludar".
+3. Mostrar un mensaje personalizado.
+
+### Tecnologías utilizadas
+
+- Python
+- Streamlit
+- Git
+- GitHub
+- Streamlit Community Cloud
+
+### Link del deploy
+
+https://portfolio-seminario-lfn95sjdcfnvjsphwy9xu8.streamlit.app/
+
+## 3. Diferencias entre las dos versiones
+
+Las dos aplicaciones realizan la misma función, pero utilizan herramientas diferentes para construir la interfaz.
+
+### Gradio
+
+En la versión con Gradio se utilizó `gr.Blocks()` para construir la interfaz y `button.click()` para ejecutar la función cuando se presiona el botón.
+
+### Streamlit
+
+En la versión con Streamlit se utilizaron elementos como:
+
+- `st.title()`
+- `st.write()`
+- `st.text_input()`
+- `st.button()`
+
+La lógica general de la aplicación se mantiene, pero cambia la forma de construir la interfaz y gestionar la interacción.
+
+## 4. Comparación del deploy
+
+Las dos aplicaciones fueron publicadas correctamente.
+
+- **Render:** aplicación desarrollada con Gradio Blocks.
+- **Streamlit Community Cloud:** versión equivalente desarrollada con Streamlit.
+
+El resultado permitió comprobar que una aplicación sencilla puede ser publicada utilizando diferentes herramientas y plataformas.
+
+## 5. Documentación
+
+Durante la actividad también se trabajó con archivos `README.md` y Markdown para documentar el proyecto y facilitar la comprensión de su estructura, tecnologías y formas de acceso.
+
+## Resultado final
+
+Se obtuvieron dos aplicaciones funcionando online:
+
+### Gradio + Render
+
+https://portfolio-seminario.onrender.com
+
+### Streamlit
+
+https://portfolio-seminario-lfn95sjdcfnvjsphwy9xu8.streamlit.app/
