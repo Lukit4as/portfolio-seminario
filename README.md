@@ -19,6 +19,7 @@ Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial
 - Documentación con Markdown
 - Deploy con Render
 - Streamlit
+- Entrenamiento y exportación de modelos de Machine Learning
 
 ## Tecnologías
 
