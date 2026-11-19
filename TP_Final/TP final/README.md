@@ -159,3 +159,13 @@ La API utiliza `CORSMiddleware` para permitir la comunicación entre el frontend
 
 Los orígenes locales autorizados se configuran mediante la variable de entorno `ALLOWED_ORIGINS`.
 
+
+Frontend: https://lukit4as.github.io/portfolio-seminario/
+
+
+
+Backend: https://portfolio-seminario-1.onrender.com
+
+
+
+Documentación de la API: https://portfolio-seminario-1.onrender.com/docs
