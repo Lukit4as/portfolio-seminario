@@ -1,34 +1,60 @@
-Portfolio - Seminario de Actualización
-Este repositorio reúne los trabajos y actividades que fui realizando durante la materia Seminario de Actualización, de la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial.
-Contenido del repositorio
-- Clase_02: actividades y ejercicios de la clase 2.
-- Clase_03: actividades y ejercicios de la clase 3.
-- Clase_04: actividades y ejercicios de la clase 4.
-- Clase_05: actividades y ejercicios de la clase 5.
-- TP_Integrador: trabajo integrador de la materia.
-- app.py: aplicación principal del repositorio.
-- requirements.txt: dependencias necesarias para ejecutar la aplicación.
-Trabajo integrador: DiabeTrack
-DiabeTrack es un proyecto académico que permite realizar predicciones a partir de datos relacionados con la diabetes.
+# Portfolio - Seminario de Actualización
 
-Para el modelo se utilizó el conjunto de datos Diabetes de Scikit-learn y una regresión lineal. El proyecto cuenta con una API desarrollada con FastAPI y una interfaz web realizada con HTML, CSS y JavaScript.
+Este repositorio contiene los trabajos, actividades y proyectos realizados durante la materia **Seminario de Actualización**, de la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial.
 
-Enlaces del proyecto:
-- Repositorio en GitHub
-- Aplicación web
-- API
-- Documentación de la API
-Este proyecto es de carácter educativo y experimental. Sus resultados no deben utilizarse para realizar diagnósticos médicos.
+## Contenido del repositorio
 
-Herramientas y tecnologías
-Durante la materia trabajé con:
+### Clases
+
+En estas carpetas se encuentran las actividades y ejercicios realizados durante las clases:
+
+- `Clase_02/`
+- `Clase_03/`
+- `Clase_04/`
+- `Clase_05/`
+
+### Trabajos prácticos
+
+- `TP_Integrador/`: trabajo integrador de la materia, relacionado con clasificación y evaluación de textos.
+- `TP_Final/`: trabajo final integrador, donde se desarrolló **DiabeTrack**.
+
+## TP Final - DiabeTrack
+
+DiabeTrack es un proyecto académico que permite realizar predicciones utilizando datos relacionados con la diabetes.
+
+Para su desarrollo se utilizaron:
+
+- **Python y Scikit-learn:** desarrollo del modelo de Machine Learning mediante regresión lineal.
+- **FastAPI:** creación de la API para realizar las predicciones.
+- **HTML, CSS y JavaScript:** desarrollo de la interfaz web.
+- **Render:** alojamiento del backend.
+- **GitHub Pages:** publicación de la aplicación web.
+
+### Enlaces del proyecto
+
+- [Aplicación web](https://lukit4as.github.io/portfolio-seminario/)
+- [API](https://portfolio-seminario-1.onrender.com)
+- [Documentación de la API](https://portfolio-seminario-1.onrender.com/docs)
+- [Repositorio de GitHub](https://github.com/Lukit4as/portfolio-seminario)
+
+> DiabeTrack es un proyecto académico y experimental. No debe utilizarse como herramienta de diagnóstico médico.
+
+## Tecnologías y herramientas utilizadas
+
 - Python
 - Git y GitHub
-- Visual Studio Code y GitHub Codespaces
-- Gradio y Streamlit
-- FastAPI y Flask
+- Visual Studio Code
+- GitHub Codespaces
+- Gradio
+- Hugging Face Spaces
+- Streamlit
+- Scikit-learn
+- FastAPI
+- Flask
 - HTML, CSS y JavaScript
 - Markdown
-- Librerías de Python para trabajar con datos y modelos de Machine Learning
-Objetivo
-El objetivo de este repositorio es dejar organizados los trabajos realizados durante la cursada y mostrar las herramientas y tecnologías que fui aprendiendo y utilizando.
+- Render
+
+## Objetivo
+
+Este portfolio tiene como objetivo reunir y organizar los trabajos realizados durante la cursada, mostrando las actividades, herramientas y proyectos desarrollados a lo largo de la materia.
