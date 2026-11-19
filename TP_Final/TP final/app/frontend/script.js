@@ -5,7 +5,7 @@
 
 // Dirección local del backend.
 // Cuando publiquemos el proyecto, cambiaremos esta URL.
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://portfolio-seminario-1.onrender.com";
 
 
 // ============================================
